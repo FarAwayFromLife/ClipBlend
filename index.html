@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CopyTexter</title>
+<link rel="icon" href="Style/favicon.png" type="icon">
+<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+
+<div class="container">
+  <img src="/Style/robot logo.png" alt="logo" class="logo">
+  <h1>Clipboard Wizard</h1>
+  <div class="textbox-container">
+    <input type="text" class="textbox" id="textbox1" placeholder="Textbox 1">
+    <button class="copy-btn" onclick="copyText('textbox1')">Copy</button>
+    <button class="delete-btn" onclick="deleteTextbox('textbox1')">Delete</button>
+    <button class="paste-btn" onclick="pasteText('textbox1')">Paste</button>
+  </div>
+  <button class="add-btn" onclick="addTextbox()">Add Textbox</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
