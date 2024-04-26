@@ -1,6 +1,6 @@
 ClipBlend is a most simple and useful app where clipboard management tool designed to streamline copying, pasting, and deleting text snippets. With an intuitive interface, users can easily manage multiple text entries, enhancing productivity and organization on the go.
 
-For Live :[click here](https://clipblend.netlify.app/)
+For Live :[Click Here](https://clipblend.netlify.app/)
 
 Demo:
 
